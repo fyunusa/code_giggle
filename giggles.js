@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const gigglesContainer = document.getElementsByClassName('card-stacks')[0];
     const randomBtn = document.getElementById('random-btn');
     const frontendBtn = document.getElementById('frontend-btn');
-    const backendBtn = document.getElementById('backend-btn');
     const methodsBtn = document.getElementById('methods-btn');
     const functionsBtn = document.getElementById('functions-btn');
     const awsBtn = document.getElementById('aws-btn');
