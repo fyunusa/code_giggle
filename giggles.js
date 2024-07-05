@@ -117,7 +117,6 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     randomBtn.addEventListener('click', () => loadGiggles('random'));
-    backendBtn.addEventListener('click', () => loadGiggles('backend'));
     frontendBtn.addEventListener('click', () => loadGiggles('frontend'));
     methodsBtn.addEventListener('click', () => loadGiggles('methods'));
     functionsBtn.addEventListener('click', () => loadGiggles('functions'));
