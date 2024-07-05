@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
             .then(data => {
             // data = gigglesData
             const giggles = category ? data[category] : data.random;
-            console.log(giggles.length)
+            // console.log(giggles.length)
             
             // Ensure stacks are created if they don't exist
             if (!stack1 || !stack2 || !stack3 || !stack4) {
